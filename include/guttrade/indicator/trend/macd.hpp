@@ -2,8 +2,8 @@
 // Created by alisson on 23/12/17.
 //
 
-#ifndef GUTTRADE_INDICATOR_TENDENCIE_MACD_HPP
-#define GUTTRADE_INDICATOR_TENDENCIE_MACD_HPP
+#ifndef GUTTRADE_INDICATOR_TREND_MACD_HPP
+#define GUTTRADE_INDICATOR_TREND_MACD_HPP
 
 #include <guttrade/type.hpp>
 
@@ -26,4 +26,4 @@ std::vector<guttrade::type::decimal> macd(const std::vector<guttrade::type::deci
 } /* indicator */
 } /* guttrade */
 
-#endif //GUTTRADE_INDICATOR_TENDENCIE_MACD_HPP
+#endif //GUTTRADE_INDICATOR_TREND_MACD_HPP

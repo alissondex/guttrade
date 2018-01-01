@@ -3,7 +3,7 @@
 //
 
 
-#include "guttrade/indicator/tendencie/macd.hpp"
+#include "guttrade/indicator/trend/macd.hpp"
 
 #include "guttrade/detail/algorithm/subtract_vectors.hpp"
 #include "guttrade/indicator/moving_average/exponential.hpp"

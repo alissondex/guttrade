@@ -2,7 +2,7 @@
 // Created by alisson on 23/12/17.
 //
 
-#include "guttrade/indicator/tendencie/aroon.hpp"
+#include "guttrade/indicator/trend/aroon.hpp"
 
 #include <functional>
 

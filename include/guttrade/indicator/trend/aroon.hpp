@@ -2,8 +2,8 @@
 // Created by alisson on 23/12/17.
 //
 
-#ifndef GUTTRADE_INDICATOR_TENDENCIE_AROON_HPP
-#define GUTTRADE_INDICATOR_TENDENCIE_AROON_HPP
+#ifndef GUTTRADE_INDICATOR_TREND_AROON_HPP
+#define GUTTRADE_INDICATOR_TREND_AROON_HPP
 
 #include "guttrade/type.hpp"
 
@@ -20,4 +20,4 @@ guttrade::type::decimal aroon_down(const std::vector<guttrade::type::decimal> &d
 } /* indicator */
 } /* guttrade */
 
-#endif //GUTTRADE_INDICATOR_TENDENCIE_AROON_HPP
+#endif //GUTTRADE_INDICATOR_TREND_AROON_HPP
