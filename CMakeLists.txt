@@ -14,7 +14,7 @@ set(USTRADE_HEADERS
 
         # guttrade/indicator
         include/guttrade/indicator/moving_avarage.hpp
-        include/guttrade/indicator/tendencie.hpp
+        include/guttrade/indicator/trend.hpp
         include/guttrade/indicator/volatility.hpp
         include/guttrade/indicator/volume.hpp
 
@@ -24,6 +24,7 @@ set(USTRADE_HEADERS
 
         # guttrade/indicator/trend
         include/guttrade/indicator/trend/aroon.hpp
+        include/guttrade/indicator/trend/directional_movement.hpp
         include/guttrade/indicator/trend/directional_movement_index.hpp
         include/guttrade/indicator/trend/macd.hpp
         include/guttrade/indicator/trend/stop_and_reverse.hpp
@@ -45,6 +46,7 @@ set(USTRADE_SOURCES
 
         # guttrade/indicator/trend
         src/indicator/trend/aroon.cpp
+        src/indicator/trend/directional_movement.cpp
         src/indicator/trend/directional_movement_index.cpp
         src/indicator/trend/macd.cpp
         src/indicator/trend/stop_and_reverse.cpp
