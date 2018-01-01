@@ -7,11 +7,11 @@
 
 namespace guttrade {
 namespace indicator {
-namespace tendencie {
+namespace trend {
 
 // TODO: to implement ...
 
-} /* tendencie */
+} /* trend */
 } /* indicator */
 } /* guttrade */
 
