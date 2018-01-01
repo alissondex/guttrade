@@ -24,6 +24,7 @@ set(USTRADE_HEADERS
 
         # guttrade/indicator/trend
         include/guttrade/indicator/trend/aroon.hpp
+        include/guttrade/indicator/trend/directional_indicator.hpp
         include/guttrade/indicator/trend/directional_movement.hpp
         include/guttrade/indicator/trend/directional_movement_index.hpp
         include/guttrade/indicator/trend/macd.hpp
@@ -46,6 +47,7 @@ set(USTRADE_SOURCES
 
         # guttrade/indicator/trend
         src/indicator/trend/aroon.cpp
+        src/indicator/trend/directional_indicator.cpp
         src/indicator/trend/directional_movement.cpp
         src/indicator/trend/directional_movement_index.cpp
         src/indicator/trend/macd.cpp
