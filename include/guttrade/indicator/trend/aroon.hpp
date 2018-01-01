@@ -11,12 +11,12 @@
 
 namespace guttrade {
 namespace indicator {
-namespace tendencie {
+namespace trend {
 
 guttrade::type::decimal aroon_up(const std::vector<guttrade::type::decimal> &data);
 guttrade::type::decimal aroon_down(const std::vector<guttrade::type::decimal> &data);
 
-} /* tendencie */
+} /* trend */
 } /* indicator */
 } /* guttrade */
 

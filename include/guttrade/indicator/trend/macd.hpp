@@ -11,7 +11,7 @@
 
 namespace guttrade {
 namespace indicator {
-namespace tendencie {
+namespace trend {
 
 std::vector<guttrade::type::decimal> macd_line(const std::vector<guttrade::type::decimal> &data,
                                                const std::size_t recent = 12,
@@ -22,7 +22,7 @@ std::vector<guttrade::type::decimal> macd(const std::vector<guttrade::type::deci
                                           const std::size_t old = 26,
                                           const std::size_t signal = 9);
 
-} /* tendencie */
+} /* trend */
 } /* indicator */
 } /* guttrade */
 

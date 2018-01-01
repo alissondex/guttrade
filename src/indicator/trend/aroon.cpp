@@ -37,14 +37,14 @@ guttrade::type::decimal arron(const std::vector<guttrade::type::decimal> &data,
 
 }
 
-guttrade::type::decimal guttrade::indicator::tendencie::aroon_up(const std::vector<guttrade::type::decimal> &data)
+guttrade::type::decimal guttrade::indicator::trend::aroon_up(const std::vector<guttrade::type::decimal> &data)
 {
    return arron(data, [](const guttrade::type::decimal &current, const guttrade::type::decimal &next){
        return next > current;
     });
 }
 
-guttrade::type::decimal guttrade::indicator::tendencie::aroon_down(const std::vector<guttrade::type::decimal> &data)
+guttrade::type::decimal guttrade::indicator::trend::aroon_down(const std::vector<guttrade::type::decimal> &data)
 {
     return arron(data, [](const guttrade::type::decimal &current, const guttrade::type::decimal &next){
         return next < current;

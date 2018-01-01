@@ -22,11 +22,11 @@ set(USTRADE_HEADERS
         include/guttrade/indicator/moving_average/simple.hpp
         include/guttrade/indicator/moving_average/exponential.hpp
 
-        # guttrade/indicator/tendencie
-        include/guttrade/indicator/tendencie/aroon.hpp
-        include/guttrade/indicator/tendencie/directional_movement_index.hpp
-        include/guttrade/indicator/tendencie/macd.hpp
-        include/guttrade/indicator/tendencie/stop_and_reverse.hpp
+        # guttrade/indicator/trend
+        include/guttrade/indicator/trend/aroon.hpp
+        include/guttrade/indicator/trend/directional_movement_index.hpp
+        include/guttrade/indicator/trend/macd.hpp
+        include/guttrade/indicator/trend/stop_and_reverse.hpp
 
         # guttrade/indicator/volatility
         include/guttrade/indicator/volatility/average_true_range.hpp
@@ -43,11 +43,11 @@ set(USTRADE_SOURCES
         src/indicator/moving_average/simple.cpp
         src/indicator/moving_average/exponential.cpp
 
-        # guttrade/indicator/tendencie
-        src/indicator/tendencie/aroon.cpp
-        src/indicator/tendencie/directional_movement_index.cpp
-        src/indicator/tendencie/macd.cpp
-        src/indicator/tendencie/stop_and_reverse.cpp
+        # guttrade/indicator/trend
+        src/indicator/trend/aroon.cpp
+        src/indicator/trend/directional_movement_index.cpp
+        src/indicator/trend/macd.cpp
+        src/indicator/trend/stop_and_reverse.cpp
 
         # guttrade/indicator/volatility
         src/indicator/volatility/average_true_range.cpp

@@ -10,7 +10,7 @@
 
 #include <cstdlib>
 
-std::vector<guttrade::type::decimal> guttrade::indicator::tendencie::macd_line(const std::vector<guttrade::type::decimal> &data,
+std::vector<guttrade::type::decimal> guttrade::indicator::trend::macd_line(const std::vector<guttrade::type::decimal> &data,
                                                                                const std::size_t recent_period,
                                                                                const std::size_t old_period)
 {
@@ -26,12 +26,12 @@ std::vector<guttrade::type::decimal> guttrade::indicator::tendencie::macd_line(c
     return guttrade::detail::algorithm::subtract_vector(recent_line, old_line, true);
 }
 
-std::vector<guttrade::type::decimal> guttrade::indicator::tendencie::macd(const std::vector<guttrade::type::decimal> &data,
+std::vector<guttrade::type::decimal> guttrade::indicator::trend::macd(const std::vector<guttrade::type::decimal> &data,
                                                                           const std::size_t recent,
                                                                           const std::size_t old,
                                                                           const std::size_t signal)
 {
-    auto macd_line = guttrade::indicator::tendencie::macd_line(data, recent, old);
+    auto macd_line = guttrade::indicator::trend::macd_line(data, recent, old);
     auto signal_line = guttrade::indicator::moving_average::exponential(data, signal);
 
     return guttrade::detail::algorithm::subtract_vector(macd_line, signal_line, true);
