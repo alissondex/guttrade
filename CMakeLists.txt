@@ -11,6 +11,7 @@ set(USTRADE_HEADERS
 
         # guttrade/detail/algorithm
         include/guttrade/detail/algorithm/subtract_vectors.hpp
+        include/guttrade/detail/algorithm/add_vectors.hpp
 
         # guttrade/indicator
         include/guttrade/indicator/moving_avarage.hpp
